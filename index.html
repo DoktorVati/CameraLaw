@@ -1,16 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8"> 
-    <title>Camera Law</title>        
-</head>  
-
-
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camera Law</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            padding: 20px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav a {
+            color: white;
+            margin-left: 15px;
+            text-decoration: none;
+        }
+        .hero {
+            background-image: url('hero.jpg');
+            background-size: cover;
+            height: 400px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3em;
+        }
+        .services {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px 0;
+        }
+        .service-item {
+            width: 30%;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
 <body>
-<h1>
-    Camera Law
-</h1>
-
-
+    <header>
+        <div>Camera Law</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+            <a href="#">About</a>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <div>
+            <h1>Experienced Felony Defense</h1>
+            <button>Schedule a Consultation</button>
+        </div>
+    </section>
+    
+    <section class="services">
+        <div class="service-item">
+            <h2>Criminal Defense</h2>
+            <p>We provide expert defense for criminal cases...</p>
+        </div>
+        <div class="service-item">
+            <h2>Bankruptcy</h2>
+            <p>Our team can help you navigate bankruptcy issues...</p>
+        </div>
+    </section>
+    
+    <footer>
+        <p>Contact Us: 123-456-7890 | info@cameralaw.org</p>
+        <p>Follow us: <a href="#">Twitter</a> | <a href="#">LinkedIn</a></p>
+    </footer>
 </body>
+</html>

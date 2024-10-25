@@ -16,9 +16,28 @@ body {
 header {
     background: #2C3E50;
     color: #ffffff;
-    padding: 40px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ensures logo and text are well spaced */
+}
+
+header img {
+    width: 150px;
+    height: auto;
+}
+
+header div {
     text-align: center;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    flex-grow: 1;
+}
+
+header div h1, header div h2 {
+    margin: 0; /* Removes extra space around text */
+}
+
+header img {
+    margin-right: 20px;
 }
 
 h1 {
@@ -142,4 +161,31 @@ footer p {
 }
 .cta-button:hover {
     background-color: #45a049;
+}
+
+.bio-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px;
+    gap: 30px;
+}
+
+.bio-image img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.bio-text {
+    max-width: 600px;
+}
+
+.bio-text h2 {
+    font-size: 1.8em;
+    color: #2C3E50;
+}
+
+.bio-text p {
+    line-height: 1.6;
+    font-size: 1.1em;
 }

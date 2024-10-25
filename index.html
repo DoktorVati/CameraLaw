@@ -2,39 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!--  Should scale with the device width -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- This is the title of the webpage that appears in the browser tab -->
     <title>Camera Law | Criminal Defense Attorney</title>
-    <!-- This is the link to the external CSS file for styling the webpage -->
     <link rel="stylesheet" href="CameraLawCSS.css">
+    
 </head>
 <body>
-    <!-- Header section containing the main title and subtitle, I tried to model it after the other website -->
     <header>
         <h1>Camera Law</h1>
         <h2>Criminal Defense Attorney and Bankruptcy Attorney</h2>
     </header>
 
-    <!-- Navigation menu for easy access to different sections of the page -->
     <nav>
         <ul>
+            <li><a href="#">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
+            <li>
+                <a href="#" id="practiceAreas">Practice Areas</a>
+                <div class="dropdown">
+                    <a href="criminal-defense.html">Criminal Defense</a>
+                    <a href="bankruptcy-attorney.html">Bankruptcy Attorney</a>
+                </div>
+            </li>
             <li><a href="#testimonials">Testimonials</a></li>
             <li><a href="#contact">Contact Us</a></li>
-            <li><a href="#hero">Schedule a Consultation</a></li>
-
+            <li><a href="#hero">Schedule a Free Consultation</a></li>
         </ul>
     </nav>
-    
-    <!-- Section providing information about Camera Law -->
+
     <section id="about">
         <h3>About Camera Law</h3>
         <p>Anthony Camera is an experienced misdemeanor and felony defense attorney and bankruptcy attorney with a proven track record of successfully defending clients against a wide range of criminal charges. He has the knowledge, expertise, and resources necessary to provide you with the best possible defense.</p>
     </section>
-    
-    <!-- Section detailing the legal services offered -->
+
     <section id="services">
         <h3>Personalized Legal Representation</h3>
         <p>This is your life. We know how important your future is. That's why you need an expert criminal defense attorney to help get you the outcome you deserve.</p>
@@ -42,13 +42,11 @@
         <p>We understand that legal issues can arise at any time, which is why we are available 24/7 to provide you with the legal help you need. Whether you are facing criminal charges, seeking bankruptcy relief, or need legal advice, our attorneys are here to help.</p>
     </section>
 
-    <!-- Section for client testimonials -->
     <section id="testimonials">
         <h3>Our Clients Speak for Us</h3>
         <p>Reviews coming soon!</p>
     </section>
 
-    <!-- Contact section for reaching out to Camera Law -->
     <section id="contact">
         <h3>Contact Us</h3>
         <p>Camera Law PC<br>
@@ -57,7 +55,6 @@
         Email: <a href="mailto:anthony@cameralaw.org">anthony@cameralaw.org</a></p>
         
         <h4>Get in Touch!</h4>
-        <!-- Contact form for user inquiries -->
         <form>
             <label for="name">Name</label>
             <input type="text" id="name" required>
@@ -75,25 +72,16 @@
         <p>Mon - Fri: 09:00 am - 05:00 pm<br>Sat - Sun: Closed</p>
     </section>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Camera Law</title>
-    
-</body>
-    
-    
-    <section class="hero">
+    <section id="hero" class="hero">
         <div>
             <h1>Experienced Felony Defense</h1>
             <button class="cta-button" aria-label="Schedule a Consultation">Schedule a Consultation</button>
         </div>
     </section>
  
-    <!-- Footer section containing copyright information -->
     <footer>
         <p>&copy; 2023 Camera Law - All Rights Reserved.</p>
-    
-    
-    
         <p>Follow us: <a href="#">Twitter</a> | <a href="#">LinkedIn</a></p>
     </footer>
+</body>
 </html>

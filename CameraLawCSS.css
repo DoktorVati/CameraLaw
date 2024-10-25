@@ -143,3 +143,44 @@ footer p {
 .cta-button:hover {
     background-color: #45a049;
 }
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+nav li {
+    display: inline-block;
+    position: relative;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+/* Dropdown menu styles */
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 100%; /* Position below the parent */
+    left: 0; /* Align to the left */
+    width: 200px; /* Set a width for dropdown */
+}
+
+.dropdown a {
+    display: block;
+    padding: 10px 20px;
+    white-space: nowrap; /* Prevent text wrapping */
+    color: #34495E; /* Text color */
+}
+
+/* Show the dropdown on hover */
+nav li:hover .dropdown {
+    display: block;
+}

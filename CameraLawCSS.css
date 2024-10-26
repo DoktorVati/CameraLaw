@@ -19,7 +19,7 @@ header {
     padding: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Ensures logo and text are well spaced */
+    justify-content: space-evenly; 
 }
 
 header img {
@@ -80,7 +80,7 @@ section {
     background: #ffffff;
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    max-width: 800px;
+    max-width: 1000px;
 }
 
 h3 {
@@ -164,7 +164,7 @@ footer p {
 }
 nav ul {
     list-style-type: none;
-    padding: 0;
+    padding-left: 0;
     margin: 0;
     position: relative;
 }
@@ -207,8 +207,8 @@ nav li:hover .dropdown {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding: 50px;
-    gap: 30px;
+    padding: 20px;
+    gap: 20px;
 }
 
 .bio-image img {
@@ -228,4 +228,23 @@ nav li:hover .dropdown {
 .bio-text p {
     line-height: 1.6;
     font-size: 1.1em;
+    text-align: center;
+}
+ 
+.bio-text a, footer a {
+    color: #ffffff;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 15px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
 }
